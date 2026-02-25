@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 1000px;
+}
+
+header {
+    background-image: url(/img/1n.jpg);
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    color: white;
+}
+
+.Welcome {
+    display: inline-block;
+    background-color: rgb(255, 187, 0);
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+h1 {
+    color: black;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    left: 300px;
+}
+
+a {
+    color: white;
+}
+
+.logo {
+    position: relative;
+    right: 430px;
+    top: 20px;
+}
+
+.s1 {
+    text-align: center;
+}
+
+figure img {
+    width: 400px;
+    height: 250px;
+}
+
+.img2 {
+    flex: 2;
+}
+
+.s1 p {
+    width: 500px;
+    margin: 0 auto;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.s2 {
+    background-color: gainsboro;
+    text-align: center;
+}
+
+.s2 p {
+    width: 500px;
+    margin: 15px auto;
+}
+
+div img {
+    width: 50px;
+}
+
+.articles p {
+    width: 300px;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.s3 {
+    text-align: center;
+}
+
+.s3 p {
+    width: 700px;
+    margin: 10px auto;
+}
+
+.s4 {
+    background-color: gainsboro;
+    text-align: center;
+    padding: 40px;
+}
+
+.s4 p {
+    width: 500px;
+    margin: 40px auto;
+}
+
+button {
+    display: inline-block;
+    margin: 20px;
+    background-color: rgb(255, 196, 0);
+    border: 0cm;
+    width: 100px;
+    height: 30px;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+footer {
+    width: 1000px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+footer p {margin: 5px;}
+footer img {
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+}
